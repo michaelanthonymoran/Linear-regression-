@@ -18,7 +18,7 @@ states.data <- readRDS("dataSets/states.rds")
 str(states.data)
 ```
 
-# summary of expense and csat columns, all rows
+# summary of metro and energy columns, all rows
 ```{r}
 sts.met.en <- subset(states.data, select = c("metro", "energy"))
 summary(sts.met.en)
